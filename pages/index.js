@@ -7,7 +7,7 @@ const index = () => {
         className="flex flex-col items-start justify-center"
         style={{ border: "1px solid red" }}
       >
-        <h1 className="">sfiughsiufgy</h1>
+        <h1 className="bg-primary-500">sfiughsiufgy</h1>
         <p>hgiauyfriuyg</p>
       </div>
     </>

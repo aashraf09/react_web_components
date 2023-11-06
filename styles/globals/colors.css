@@ -1,0 +1,790 @@
+:root {
+  /* primary colors pallet */
+  --primary-100: #00223d;
+  --primary-90: #023054;
+  --primary-80: #024071;
+  --primary-70: #034f8b;
+  --primary-60: #0460a9;
+  --primary-50: #2877b6;
+  --primary-40: #4c8fc3;
+  --primary-30: #75a8d2;
+  --primary-20: #9cbfdd;
+  --primary-10: #c4dbee;
+  --primary-5: #e6f1fa;
+
+  /* secondary colors */
+
+  /* 1. Steel */
+  --steel-100: #001c37;
+  --steel-90: #0d2741;
+  --steel-80: #1a324b;
+  --steel-70: #273e54;
+  --steel-60: #34495e;
+  --steel-50: #516476;
+  --steel-40: #6e7e8e;
+  --steel-30: #8b99a6;
+  --steel-20: #a9b4bf;
+  --steel-10: #c6ced7;
+  --steel-5: #e3e9ef;
+
+  /* 2. Yellow */
+  --yellow-100: #4a2d00;
+  --yellow-90: #734807;
+  --yellow-80: #9b630f;
+  --yellow-70: #c37f16;
+  --yellow-60: #ec9a1e;
+  --yellow-50: #efa93f;
+  --yellow-40: #f2b861;
+  --yellow-30: #f5c882;
+  --yellow-20: #f9d7a4;
+  --yellow-10: #fce6c5;
+  --yellow-5: #fff5e7;
+
+  /* 3. Orange */
+  --orange-100: #5b1000;
+  --orange-90: #7e1e08;
+  --orange-80: #a12d10;
+  --orange-70: #c43b19;
+  --orange-60: #e74a21;
+  --orange-50: #eb6542;
+  --orange-40: #ef8063;
+  --orange-30: #f39b84;
+  --orange-20: #f7b6a5;
+  --orange-10: #fbd1c6;
+  --orange-5: #ffece8;
+
+  /* 4. Purple */
+  --purple-100: #2c002c;
+  --purple-90: #340b34;
+  --purple-80: #3d153d;
+  --purple-70: #462046;
+  --purple-60: #4f2b4f;
+  --purple-50: #6b4b6c;
+  --purple-40: #886b8a;
+  --purple-30: #a48aa7;
+  --purple-20: #c1aac4;
+  --purple-10: #ddcae2;
+  --purple-5: #f9eaff;
+
+  /* Extended */
+
+  /* 1. Red */
+  --red-100: #2d0200;
+  --red-90: #450907;
+  --red-80: #5d100d;
+  --red-70: #751814;
+  --red-60: #8d1f1b;
+  --red-50: #a0413e;
+  --red-40: #b36360;
+  --red-30: #c68583;
+  --red-20: #d9a7a5;
+  --red-10: #ecc9c8;
+  --red-5: #ffeceb;
+
+  /* 2. Green */
+  --green-100: #00920b;
+  --green-90: #0b3316;
+  --green-80: #173d21;
+  --green-70: #22462c;
+  --green-60: #2e5037;
+  --green-50: #6e8975;
+  --green-40: #869ff8d;
+  --green-30: #9fb5a5;
+  --green-20: #b8cbbd;
+  --green-10: #d1e1d5;
+  --green-5: #eaf8ee;
+
+  /* 3. Brown */
+  --brown-100: #270f00;
+  --brown-90: #321a0b;
+  --brown-80: #3c2517;
+  --brown-70: #473022;
+  --brown-60: #513b2e;
+  --brown-50: #6e5a4e;
+  --brown-40: #8b796e;
+  --brown-30: #a8988e;
+  --brown-20: #c5b7af;
+  --brown-10: #e2d6cf;
+  --brown-5: #fff5ef;
+
+  /* NEUTRAL */
+  --neutral-100: #000000;
+  --neutral-90: #212121;
+  --neutral-80: #424242;
+  --neutral-70: #616161;
+  --neutral-60: #757575;
+  --neutral-50: #9e9e9e;
+  --neutral-40: #bdbdbd;
+  --neutral-30: #e0e0e0;
+  --neutral-20: #eeeeee;
+  --neutral-10: #f5f5f5;
+  --neutral-5: #fbfbfb;
+  --neutral-0: #ffffff;
+
+  /* SEMENTIC */
+  --error: #d41212;
+  --approved: #2db604;
+  --warning: #ff9900;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* ------------------------------- Background Colors -------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+/* 1. Primary Background Colors */
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+.bg-primary-90 {
+  background-color: var(--primary-90);
+}
+.bg-primary-80 {
+  background-color: var(--primary-80);
+}
+.bg-primary-70 {
+  background-color: var(--primary-70);
+}
+.bg-primary-60 {
+  background-color: var(--primary-60);
+}
+.bg-primary-50 {
+  background-color: var(--primary-50);
+}
+.bg-primary-40 {
+  background-color: var(--primary-40);
+}
+.bg-primary-30 {
+  background-color: var(--primary-30);
+}
+.bg-primary-20 {
+  background-color: var(--primary-20);
+}
+.bg-primary-10 {
+  background-color: var(--primary-10);
+}
+.bg-primary-5 {
+  background-color: var(--primary-5);
+}
+
+/* 2. Steel Shade Background Colors */
+.bg-steel-100 {
+  background-color: var(--steel-100);
+}
+.bg-steel-90 {
+  background-color: var(--steel-90);
+}
+.bg-steel-80 {
+  background-color: var(--steel-80);
+}
+.bg-steel-70 {
+  background-color: var(--steel-70);
+}
+.bg-steel-60 {
+  background-color: var(--steel-60);
+}
+.bg-steel-50 {
+  background-color: var(--steel-50);
+}
+.bg-steel-40 {
+  background-color: var(--steel-40);
+}
+.bg-steel-30 {
+  background-color: var(--steel-30);
+}
+.bg-steel-20 {
+  background-color: var(--steel-20);
+}
+.bg-steel-10 {
+  background-color: var(--steel-10);
+}
+.bg-steel-5 {
+  background-color: var(--steel-5);
+}
+
+/* 3. Yellow Shade Background Colors */
+.bg-yellow-100 {
+  background-color: var(--yellow-100);
+}
+.bg-yellow-90 {
+  background-color: var(--yellow-90);
+}
+.bg-yellow-80 {
+  background-color: var(--yellow-80);
+}
+.bg-yellow-70 {
+  background-color: var(--yellow-70);
+}
+.bg-yellow-60 {
+  background-color: var(--yellow-60);
+}
+.bg-yellow-50 {
+  background-color: var(--yellow-50);
+}
+.bg-yellow-40 {
+  background-color: var(--yellow-40);
+}
+.bg-yellow-30 {
+  background-color: var(--yellow-30);
+}
+.bg-yellow-20 {
+  background-color: var(--yellow-20);
+}
+.bg-yellow-10 {
+  background-color: var(--yellow-10);
+}
+.bg-yellow-5 {
+  background-color: var(--yellow-5);
+}
+
+/* 4. Orange Shade Background Colors */
+.bg-orange-100 {
+  background-color: var(--orange-100);
+}
+.bg-orange-90 {
+  background-color: var(--orange-90);
+}
+.bg-orange-80 {
+  background-color: var(--orange-80);
+}
+.bg-orange-70 {
+  background-color: var(--orange-70);
+}
+.bg-orange-60 {
+  background-color: var(--orange-60);
+}
+.bg-orange-50 {
+  background-color: var(--orange-50);
+}
+.bg-orange-40 {
+  background-color: var(--orange-40);
+}
+.bg-orange-30 {
+  background-color: var(--orange-30);
+}
+.bg-orange-20 {
+  background-color: var(--orange-20);
+}
+.bg-orange-10 {
+  background-color: var(--orange-10);
+}
+.bg-orange-5 {
+  background-color: var(--orange-5);
+}
+
+/* 5. Purple Shade Background Colors */
+.bg-purple-100 {
+  background-color: var(--purple-100);
+}
+.bg-purple-90 {
+  background-color: var(--purple-90);
+}
+.bg-purple-80 {
+  background-color: var(--purple-80);
+}
+.bg-purple-70 {
+  background-color: var(--purple-70);
+}
+.bg-purple-60 {
+  background-color: var(--purple-60);
+}
+.bg-purple-50 {
+  background-color: var(--purple-50);
+}
+.bg-purple-40 {
+  background-color: var(--purple-40);
+}
+.bg-purple-30 {
+  background-color: var(--purple-30);
+}
+.bg-purple-20 {
+  background-color: var(--purple-20);
+}
+.bg-purple-10 {
+  background-color: var(--purple-10);
+}
+.bg-purple-5 {
+  background-color: var(--purple-5);
+}
+
+/* 6. Red Shade Background Colors */
+.bg-red-100 {
+  background-color: var(--red-100);
+}
+.bg-red-90 {
+  background-color: var(--red-90);
+}
+.bg-red-80 {
+  background-color: var(--red-80);
+}
+.bg-red-70 {
+  background-color: var(--red-70);
+}
+.bg-red-60 {
+  background-color: var(--red-60);
+}
+.bg-red-50 {
+  background-color: var(--red-50);
+}
+.bg-red-40 {
+  background-color: var(--red-40);
+}
+.bg-red-30 {
+  background-color: var(--red-30);
+}
+.bg-red-20 {
+  background-color: var(--red-20);
+}
+.bg-red-10 {
+  background-color: var(--red-10);
+}
+.bg-red-5 {
+  background-color: var(--red-5);
+}
+
+/* 7. Green Shade Background Colors */
+.bg-green-100 {
+  background-color: var(--green-100);
+}
+.bg-green-90 {
+  background-color: var(--green-90);
+}
+.bg-green-80 {
+  background-color: var(--green-80);
+}
+.bg-green-70 {
+  background-color: var(--green-70);
+}
+.bg-green-60 {
+  background-color: var(--green-60);
+}
+.bg-green-50 {
+  background-color: var(--green-50);
+}
+.bg-green-40 {
+  background-color: var(--green-40);
+}
+.bg-green-30 {
+  background-color: var(--green-30);
+}
+.bg-green-20 {
+  background-color: var(--green-20);
+}
+.bg-green-10 {
+  background-color: var(--green-10);
+}
+.bg-green-5 {
+  background-color: var(--green-5);
+}
+
+/* 8. Brown Shade Background Colors */
+.bg-brown-100 {
+  background-color: var(--green-100);
+}
+.bg-brown-90 {
+  background-color: var(--brown-90);
+}
+.bg-brown-80 {
+  background-color: var(--brown-80);
+}
+.bg-brown-70 {
+  background-color: var(--brown-70);
+}
+.bg-brown-60 {
+  background-color: var(--brown-60);
+}
+.bg-brown-50 {
+  background-color: var(--brown-50);
+}
+.bg-brown-40 {
+  background-color: var(--brown-40);
+}
+.bg-brown-30 {
+  background-color: var(--brown-30);
+}
+.bg-brown-20 {
+  background-color: var(--brown-20);
+}
+.bg-brown-10 {
+  background-color: var(--brown-10);
+}
+.bg-brown-5 {
+  background-color: var(--brown-5);
+}
+
+/* 8. Newural Shade Background Colors */
+.bg-neutral-100 {
+  background-color: var(--green-100);
+}
+.bg-neutral-90 {
+  background-color: var(--neutral-90);
+}
+.bg-neutral-80 {
+  background-color: var(--neutral-80);
+}
+.bg-neutral-70 {
+  background-color: var(--neutral-70);
+}
+.bg-neutral-60 {
+  background-color: var(--neutral-60);
+}
+.bg-neutral-50 {
+  background-color: var(--neutral-50);
+}
+.bg-neutral-40 {
+  background-color: var(--neutral-40);
+}
+.bg-neutral-30 {
+  background-color: var(--neutral-30);
+}
+.bg-neutral-20 {
+  background-color: var(--neutral-20);
+}
+.bg-neutral-10 {
+  background-color: var(--neutral-10);
+}
+.bg-neutral-5 {
+  background-color: var(--neutral-5);
+}
+
+/* sementic colors */
+.bg-error {
+  background-color: var(--error);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-approved {
+  background-color: var(--approved);
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------- Border Colors --------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+/* 1. Primary Border Colors */
+.border-primary-100 {
+  border-color: var(--primary-100);
+}
+.border-primary-90 {
+  border-color: var(--primary-90);
+}
+.border-primary-80 {
+  border-color: var(--primary-80);
+}
+.border-primary-70 {
+  border-color: var(--primary-70);
+}
+.border-primary-60 {
+  border-color: var(--primary-60);
+}
+.border-primary-50 {
+  border-color: var(--primary-50);
+}
+.border-primary-40 {
+  border-color: var(--primary-40);
+}
+.border-primary-30 {
+  border-color: var(--primary-30);
+}
+.border-primary-20 {
+  border-color: var(--primary-20);
+}
+.border-primary-10 {
+  border-color: var(--primary-10);
+}
+.border-primary-5 {
+  border-color: var(--primary-5);
+}
+
+/* 2. Steel Border Colors */
+.border-steel-100 {
+  border-color: var(--steel-100);
+}
+.border-steel-90 {
+  border-color: var(--steel-90);
+}
+.border-steel-80 {
+  border-color: var(--steel-80);
+}
+.border-steel-70 {
+  border-color: var(--steel-70);
+}
+.border-steel-60 {
+  border-color: var(--steel-60);
+}
+.border-steel-50 {
+  border-color: var(--steel-50);
+}
+.border-steel-40 {
+  border-color: var(--steel-40);
+}
+.border-steel-30 {
+  border-color: var(--steel-30);
+}
+.border-steel-20 {
+  border-color: var(--steel-20);
+}
+.border-steel-10 {
+  border-color: var(--steel-10);
+}
+.border-steel-5 {
+  border-color: var(--steel-5);
+}
+
+/* 3. Yellow Color Borders */
+.border-yellow-100 {
+  border-color: var(--yellow-100);
+}
+.border-yellow-90 {
+  border-color: var(--yellow-90);
+}
+.border-yellow-80 {
+  border-color: var(--yellow-80);
+}
+.border-yellow-70 {
+  border-color: var(--yellow-70);
+}
+.border-yellow-60 {
+  border-color: var(--yellow-60);
+}
+.border-yellow-50 {
+  border-color: var(--yellow-50);
+}
+.border-yellow-40 {
+  border-color: var(--yellow-40);
+}
+.border-yellow-30 {
+  border-color: var(--yellow-30);
+}
+.border-yellow-20 {
+  border-color: var(--yellow-20);
+}
+.border-yellow-10 {
+  border-color: var(--yellow-10);
+}
+.border-yellow-5 {
+  border-color: var(--yellow-5);
+}
+
+/* 4. Orange Color Borders */
+.border-orange-100 {
+  border-color: var(--orange-100);
+}
+.border-orange-90 {
+  border-color: var(--orange-90);
+}
+.border-orange-80 {
+  border-color: var(--orange-80);
+}
+.border-orange-70 {
+  border-color: var(--orange-70);
+}
+.border-orange-60 {
+  border-color: var(--orange-60);
+}
+.border-orange-50 {
+  border-color: var(--orange-50);
+}
+.border-orange-40 {
+  border-color: var(--orange-40);
+}
+.border-orange-30 {
+  border-color: var(--orange-30);
+}
+.border-orange-20 {
+  border-color: var(--orange-20);
+}
+.border-orange-10 {
+  border-color: var(--orange-10);
+}
+.border-orange-5 {
+  border-color: var(--orange-5);
+}
+
+/* 5. Purple Color Borders */
+.border-purple-100 {
+  border-color: var(--purple-100);
+}
+.border-purple-90 {
+  border-color: var(--purple-90);
+}
+.border-purple-80 {
+  border-color: var(--purple-80);
+}
+.border-purple-70 {
+  border-color: var(--purple-70);
+}
+.border-purple-60 {
+  border-color: var(--purple-60);
+}
+.border-purple-50 {
+  border-color: var(--purple-50);
+}
+.border-purple-40 {
+  border-color: var(--purple-40);
+}
+.border-purple-30 {
+  border-color: var(--purple-30);
+}
+.border-purple-20 {
+  border-color: var(--purple-20);
+}
+.border-purple-10 {
+  border-color: var(--purple-10);
+}
+.border-purplee-5 {
+  border-color: var(--purple-5);
+}
+
+/* 6. Red Color Borders */
+.border-red-100 {
+  border-color: var(--red-100);
+}
+.border-red-90 {
+  border-color: var(--red-90);
+}
+.border-red-80 {
+  border-color: var(--red-80);
+}
+.border-red-70 {
+  border-color: var(--red-70);
+}
+.border-red-60 {
+  border-color: var(--red-60);
+}
+.border-red-50 {
+  border-color: var(--red-50);
+}
+.border-red-40 {
+  border-color: var(--red-40);
+}
+.border-red-30 {
+  border-color: var(--red-30);
+}
+.border-red-20 {
+  border-color: var(--red-20);
+}
+.border-red-10 {
+  border-color: var(--red-10);
+}
+.border-red-5 {
+  border-color: var(--red-5);
+}
+
+/* 7. Green Color Borders */
+.border-green-100 {
+  border-color: var(--green-100);
+}
+.border-green-90 {
+  border-color: var(--green-90);
+}
+.border-green-80 {
+  border-color: var(--green-80);
+}
+.border-green-70 {
+  border-color: var(--green-70);
+}
+.border-green-60 {
+  border-color: var(--green-60);
+}
+.border-green-50 {
+  border-color: var(--green-50);
+}
+.border-green-40 {
+  border-color: var(--green-40);
+}
+.border-green-30 {
+  border-color: var(--green-30);
+}
+.border-green-20 {
+  border-color: var(--green-20);
+}
+.border-green-10 {
+  border-color: var(--green-10);
+}
+.border-green-5 {
+  border-color: var(--green-5);
+}
+
+/* 8. Brown Shade Border Colors */
+.border-brown-100 {
+  border-color: var(--brown-100);
+}
+.border-brown-90 {
+  border-color: var(--brown-90);
+}
+.border-brown-80 {
+  border-color: var(--brown-80);
+}
+.border-brown-70 {
+  border-color: var(--brown-70);
+}
+.border-brown-60 {
+  border-color: var(--brown-60);
+}
+.border-brown-50 {
+  border-color: var(--brown-50);
+}
+.border-brown-40 {
+  border-color: var(--brown-40);
+}
+.border-brown-30 {
+  border-color: var(--brown-30);
+}
+.border-brown-20 {
+  border-color: var(--brown-20);
+}
+.border-brown-10 {
+  border-color: var(--brown-10);
+}
+.border-brown-5 {
+  border-color: var(--brown-5);
+}
+
+/* Neutral */
+.border-neutral-100 {
+  border-color: var(--neutral-100);
+}
+.border-neutral-90 {
+  border-color: var(--neutral-90);
+}
+.border-neutral-80 {
+  border-color: var(--neutral-80);
+}
+.border-neutral-70 {
+  border-color: var(--neutral-70);
+}
+.border-neutral-60 {
+  border-color: var(--neutral-60);
+}
+.border-neutral-50 {
+  border-color: var(--neutral-50);
+}
+.border-neutral-40 {
+  border-color: var(--neutral-40);
+}
+.border-neutral-30 {
+  border-color: var(--neutral-30);
+}
+.border-neutral-20 {
+  border-color: var(--neutral-20);
+}
+.border-neutral-10 {
+  border-color: var(--neutral-10);
+}
+.border-neutral-5 {
+  border-color: var(--neutral-5);
+}
+
+/* Sementic */
+.border-error {
+  border-color: var(--error);
+}
+
+.border-approved {
+  border-color: var(--approved);
+}
+
+.border-warning {
+  border-color: var(--warning);
+}
