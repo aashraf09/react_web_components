@@ -788,3 +788,335 @@
 .border-warning {
   border-color: var(--warning);
 }
+
+/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------- Text Colors --------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+/* 1. Primary Border Colors */
+.text-primary-100 {
+  color: var(--primary-100);
+}
+.text-primary-90 {
+  color: var(--primary-90);
+}
+.text-primary-80 {
+  color: var(--primary-80);
+}
+.text-primary-70 {
+  color: var(--primary-70);
+}
+.text-primary-60 {
+  color: var(--primary-60);
+}
+.text-primary-50 {
+  color: var(--primary-50);
+}
+.text-primary-40 {
+  color: var(--primary-40);
+}
+.text-primary-30 {
+  color: var(--primary-30);
+}
+.text-primary-20 {
+  color: var(--primary-20);
+}
+.text-primary-10 {
+  color: var(--primary-10);
+}
+.text-primary-5 {
+  color: var(--primary-5);
+}
+
+/* 2. Steel Border Colors */
+.text-steel-100 {
+  color: var(--steel-100);
+}
+.text-steel-90 {
+  color: var(--steel-90);
+}
+.text-steel-80 {
+  color: var(--steel-80);
+}
+.text-steel-70 {
+  color: var(--steel-70);
+}
+.text-steel-60 {
+  color: var(--steel-60);
+}
+.text-steel-50 {
+  color: var(--steel-50);
+}
+.text-steel-40 {
+  color: var(--steel-40);
+}
+.text-steel-30 {
+  color: var(--steel-30);
+}
+.text-steel-20 {
+  color: var(--steel-20);
+}
+.text-steel-10 {
+  color: var(--steel-10);
+}
+.text-steel-5 {
+  color: var(--steel-5);
+}
+
+/* 3. Yellow Color Borders */
+.text-yellow-100 {
+  color: var(--yellow-100);
+}
+.text-yellow-90 {
+  color: var(--yellow-90);
+}
+.text-yellow-80 {
+  color: var(--yellow-80);
+}
+.text-yellow-70 {
+  color: var(--yellow-70);
+}
+.text-yellow-60 {
+  color: var(--yellow-60);
+}
+.text-yellow-50 {
+  color: var(--yellow-50);
+}
+.text-yellow-40 {
+  color: var(--yellow-40);
+}
+.text-yellow-30 {
+  color: var(--yellow-30);
+}
+.text-yellow-20 {
+  color: var(--yellow-20);
+}
+.text-yellow-10 {
+  color: var(--yellow-10);
+}
+.text-yellow-5 {
+  color: var(--yellow-5);
+}
+
+/* 4. Orange Color Borders */
+.text-orange-100 {
+  color: var(--orange-100);
+}
+.text-orange-90 {
+  color: var(--orange-90);
+}
+.text-orange-80 {
+  color: var(--orange-80);
+}
+.text-orange-70 {
+  color: var(--orange-70);
+}
+.text-orange-60 {
+  color: var(--orange-60);
+}
+.text-orange-50 {
+  color: var(--orange-50);
+}
+.text-orange-40 {
+  color: var(--orange-40);
+}
+.text-orange-30 {
+  color: var(--orange-30);
+}
+.text-orange-20 {
+  color: var(--orange-20);
+}
+.text-orange-10 {
+  color: var(--orange-10);
+}
+.text-orange-5 {
+  color: var(--orange-5);
+}
+
+/* 5. Purple Color Borders */
+.text-purple-100 {
+  color: var(--purple-100);
+}
+.text-purple-90 {
+  color: var(--purple-90);
+}
+.text-purple-80 {
+  color: var(--purple-80);
+}
+.text-purple-70 {
+  color: var(--purple-70);
+}
+.text-purple-60 {
+  color: var(--purple-60);
+}
+.text-purple-50 {
+  color: var(--purple-50);
+}
+.text-purple-40 {
+  color: var(--purple-40);
+}
+.text-purple-30 {
+  color: var(--purple-30);
+}
+.border-purple-20 {
+  color: var(--purple-20);
+}
+.text-purple-10 {
+  color: var(--purple-10);
+}
+.text-purplee-5 {
+  color: var(--purple-5);
+}
+
+/* 6. Red Color Borders */
+.text-red-100 {
+  color: var(--red-100);
+}
+.text-red-90 {
+  color: var(--red-90);
+}
+.text-red-80 {
+  color: var(--red-80);
+}
+.text-red-70 {
+  color: var(--red-70);
+}
+.text-red-60 {
+  color: var(--red-60);
+}
+.text-red-50 {
+  color: var(--red-50);
+}
+.text-red-40 {
+  color: var(--red-40);
+}
+.text-red-30 {
+  color: var(--red-30);
+}
+.text-red-20 {
+  color: var(--red-20);
+}
+.text-red-10 {
+  color: var(--red-10);
+}
+.text-red-5 {
+  color: var(--red-5);
+}
+
+/* 7. Green Color Borders */
+.text-green-100 {
+  color: var(--green-100);
+}
+.text-green-90 {
+  color: var(--green-90);
+}
+.text-green-80 {
+  color: var(--green-80);
+}
+.text-green-70 {
+  color: var(--green-70);
+}
+.text-green-60 {
+  color: var(--green-60);
+}
+.text-green-50 {
+  color: var(--green-50);
+}
+.text-green-40 {
+  color: var(--green-40);
+}
+.text-green-30 {
+  color: var(--green-30);
+}
+.text-green-20 {
+  color: var(--green-20);
+}
+.text-green-10 {
+  color: var(--green-10);
+}
+.text-green-5 {
+  color: var(--green-5);
+}
+
+/* 8. Brown Shade Border Colors */
+.text-brown-100 {
+  color: var(--brown-100);
+}
+.text-brown-90 {
+  color: var(--brown-90);
+}
+.text-brown-80 {
+  color: var(--brown-80);
+}
+.text-brown-70 {
+  color: var(--brown-70);
+}
+.text-brown-60 {
+  color: var(--brown-60);
+}
+.text-brown-50 {
+  color: var(--brown-50);
+}
+.text-brown-40 {
+  color: var(--brown-40);
+}
+.text-brown-30 {
+  color: var(--brown-30);
+}
+.text-brown-20 {
+  color: var(--brown-20);
+}
+.text-brown-10 {
+  color: var(--brown-10);
+}
+.text-brown-5 {
+  color: var(--brown-5);
+}
+
+/* Neutral */
+.text-neutral-100 {
+  color: var(--neutral-100);
+}
+.text-neutral-90 {
+  color: var(--neutral-90);
+}
+.text-neutral-80 {
+  color: var(--neutral-80);
+}
+.text-neutral-70 {
+  color: var(--neutral-70);
+}
+.text-neutral-60 {
+  color: var(--neutral-60);
+}
+.text-neutral-50 {
+  color: var(--neutral-50);
+}
+.text-neutral-40 {
+  color: var(--neutral-40);
+}
+.text-neutral-30 {
+  color: var(--neutral-30);
+}
+.text-neutral-20 {
+  color: var(--neutral-20);
+}
+.text-neutral-10 {
+  color: var(--neutral-10);
+}
+.text-neutral-5 {
+  color: var(--neutral-5);
+}
+
+/* Sementic */
+.text-error {
+  color: var(--error);
+}
+
+.text-approved {
+  color: var(--approved);
+}
+
+.text-warning {
+  color: var(--warning);
+}

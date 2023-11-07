@@ -1,0 +1,34 @@
+.btn {
+  cursor: pointer;
+  padding: 20px 36px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 1. Primary Buttons */
+.btn-primary {
+  background-color: #0460a9;
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.btn-white {
+  color: #0460a9;
+  background-color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-white:hover {
+  background-color: #023054;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #9e9e9e;
+  color: #fff;
+}

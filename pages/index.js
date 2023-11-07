@@ -1,17 +1,25 @@
+import PrimaryButton from "@/utils/Button/PrimaryButton";
+import SecondaryButton from "@/utils/Button/SecondaryButton";
 import React from "react";
 
 const index = () => {
   return (
-    <>
-      <div
-        className="flex flex-col items-start justify-center"
-        style={{ border: "1px solid red" }}
-      >
-        <h1 className="bg-primary-500">sfiughsiufgy</h1>
-        <p>hgiauyfriuyg</p>
-      </div>
-    </>
+    <main className="py-96">
+      {/* <PrimaryButton
+        type={"hyperlink"}
+        content={"Follow Me"}
+        targetLink={"/home"}
+        bgColor={"white"}
+        disabled={false}
+      /> */}
+      <SecondaryButton
+        type={"hyperlink"}
+        content={"Contact Me"}
+        targetLink={"/contact"}
+        bgColor={"primary"}
+        disabled={false}
+      />
+    </main>
   );
 };
-
 export default index;
