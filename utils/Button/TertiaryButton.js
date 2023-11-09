@@ -7,28 +7,22 @@ import {
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
 
-const SecondaryButton = (props) => {
+const TertiaryButton = (props) => {
   const { type, content, targetLink, size, disabled } = props;
   return (
     <Link href={targetLink}>
       <button
         disabled={disabled}
-        className={`btn btn-secondary rounded-sm flex flex-row gap-3 items-center justify-between`}
-        style={{ fontSize: `${size === "xl" ? "19px" : "17px"}` }}
+        className={`btn btn-tertiary rounded-sm flex flex-row gap-3 items-center justify-between`}
+        style={{ fontSize: `${size === "xl" ? "19px" : "16px"}` }}
       >
         {content}
         {type === "external" ? (
-          <FontAwesomeIcon
-            icon={faArrowUpRightFromSquare}
-            size={size === "xl" ? "lg" : "sm"}
-          />
+          <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="sm" />
         ) : type === "internal" ? (
-          <FontAwesomeIcon
-            icon={faArrowDown}
-            size={size === "xl" ? "lg" : "sm"}
-          />
+          <FontAwesomeIcon icon={faArrowDown} size="sm" />
         ) : type === "hyperlink" ? (
-          <FontAwesomeIcon icon={faLink} size={size === "xl" ? "lg" : "sm"} />
+          <FontAwesomeIcon icon={faLink} size="sm" />
         ) : (
           <></>
         )}
@@ -37,4 +31,4 @@ const SecondaryButton = (props) => {
   );
 };
 
-export default SecondaryButton;
+export default TertiaryButton;

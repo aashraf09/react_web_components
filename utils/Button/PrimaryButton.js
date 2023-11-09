@@ -23,7 +23,7 @@ const PrimaryButton = (props) => {
         ) : type === "internal" ? (
           <FontAwesomeIcon icon={faArrowDown} size="lg" />
         ) : type === "hyperlink" ? (
-          <FontAwesomeIcon icon={faLink} size="lg" />
+          <FontAwesomeIcon iconName={faLink} size="lg" />
         ) : (
           <></>
         )}
