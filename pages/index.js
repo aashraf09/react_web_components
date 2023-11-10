@@ -6,6 +6,7 @@ import Link from "next/link";
 import IconButton from "@/utils/Button/IconButton";
 import Checkbox from "@/utils/Inputs/Checkbox";
 import RadioButton from "@/utils/Inputs/RadioButton";
+import TextInput from "@/utils/Inputs/TextInput";
 
 const index = () => {
   return (
@@ -35,6 +36,7 @@ const index = () => {
       <IconButton iconName={"share"} targetLink={"/home"} disabled={false} />
       <Checkbox />
       <RadioButton />
+      <TextInput />
     </main>
   );
 };

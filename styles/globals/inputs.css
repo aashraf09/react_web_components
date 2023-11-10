@@ -1,3 +1,5 @@
+/* CHECKBOX AND RADIO INPUTS */
+
 .i-contain *,
 .i-contain *::before,
 .i-contain *::after {
@@ -129,4 +131,41 @@
 .i-contain input[type="radio"]:checked:focus ~ .i-input {
   background: #fff;
   border-color: #0460a9;
+}
+
+/* TEXT AND SELECT INPUTS */
+.input-container {
+  position: relative;
+  padding: 10px 0;
+}
+
+.text-label {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 12px;
+  color: #424242;
+}
+
+.text-input {
+  padding: 10px 20px;
+  /* width: 100%; */
+  outline: none;
+  border: 1px solid #000;
+}
+
+.text-input:hover {
+  border: 1px solid #0460a9;
+  .text-label {
+    color: #0460a9;
+  }
+}
+
+.text-input:focus {
+  border: 2px solid #0460a9;
+  .text-label {
+    color: #0460a9;
+  }
 }
